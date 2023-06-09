@@ -5,6 +5,7 @@
     <%= f.input :name %>
     <%= f.input :address %>
     <%= f.input :phone_number %>
+    <%= f.select :category, Restaurant::CUISINES %>
     <%= f.submit %>
   <% end %>
 </div>
