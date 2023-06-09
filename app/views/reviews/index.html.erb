@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Reviews</h1>
+    <div class="row">
+      <% @reviews.each do | review | %>
+        <ul>
+          <li>
+            <%= review.content %>
+          </li>
+        </ul>
+      <% end %>
+    </div>
+</div>
